@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@bufgix/react-native-secure-window": ["../src/index"],
+      "@bufgix/react-native-secure-window/*": ["../src/*"]
+    }
+  }
+}
